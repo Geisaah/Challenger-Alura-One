@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+body {
+    background-color: #f4f4fc;
+
+}
+
+header {
+    width: 100px;
+    height: 70px;
+
+}
+
+.logo {
+    width:310px;
+    height: 150px;
+    padding-top: 15px;
+    padding-left: 25px;
+
+}
+
+main {
+position: absolute;
+width: 100%;
+height: 90%;
+display: flex;
+justify-content: space-between;
+
+}
+
+.caixa-texto1 {
+    position: absolute;
+    left: 280px;
+    top: 100px;
+    padding-left: 100px;
+    width: 880px;
+    height: 600px;
+    border: none;
+    
+}
+
+.caixa-texto2 {
+    width: 80%;
+    height: 100%;
+    border: none;
+    background-color: #f4f4fc;
+    cursor: pointer;
+    color: #0a3871;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.caixa-texto2::placeholder {
+    color: #0a3871;
+    padding: 5%;
+
+}
+
+.alerta {
+    position: absolute;
+    top: 750px;
+    left: 140px;
+    display: flex;
+    color: #495057;
+
+}
+
+.p {
+    font-size: 21px;
+       
+}
+
+.img-alerta {
+    width: 85px;
+    padding: 2%;
+    top: 115px;
+    padding-bottom: 85%;
+    
+
+
+}
+
+.caixa-botoes {
+   /* position: absolute;*/
+    display: flex;
+    top: 800px;
+    margin-bottom: 111px;
+    margin-left: 1%;
+    margin-right: 11%;
+    height: 80px;
+    padding-left: 1%;
+    padding-top: 15px;
+
+}   
+
+.btn-criptografar {
+    width: 358px;
+    height: 67px;
+    margin-bottom: 233px;
+    border-radius: 24px;
+    background-color: #0a3871;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    /*position: relative;*/
+
+}
+
+.btn-descriptografar {
+    width: 358px;
+    height: 67px;
+    margin-bottom: 233px;
+    border-radius: 24px;
+    background-color: #d8dfe8;
+    color: #0a3871;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0a3871;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.section2 {
+    display: block;
+    position: relative;
+    width: 500px;
+    height: 940px;
+    right: 300px;
+    padding-right: 20px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0 24 32 -8 rgba(0,0,0,0.50);
+
+}
+
+.img-boneco {
+    position: absolute;
+    left: 30px;
+    top: 180px;
+    box-sizing: border-box;
+    padding-top: 50px;
+
+}
+
+.caixa-paragrafo {
+    position: absolute;
+    box-sizing: border-box;
+    top: 570px;
+    left: 40px;
+
+}
+
+.caixa-paragrafo h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #343a40;
+
+}
+
+.caixa-paragrafo p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    color: #495057;
+    padding-top: 20px;
+
+}
+
+.caixa-resultado {
+    position: absolute;
+    bottom: 410px;
+    width: 320px;
+    height: 450px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 25px;
+
+}
+
+.caixa-resultado p {
+    color: #495057;
+    font-size: 25px;
+
+}
+
+.caixa-copiar {
+    display: flex;
+    position: absolute;
+    bottom: 400px;
+    top: 700px;
+    background-color: aqua;
+    padding-left: 40px;
+
+}
+
+.bnt-copiar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0a3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0a3871;
+    cursor: pointer;
+    position: relative;
+    top: 100px;
+    right: 4px;
+
+}
+
+.ocultar {
+    display: none;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    margin-top: 45px;
+    background: #0a3871;
+    color: #ffffff;
+    opacity: .8;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape h4{
+    font-size: 25px;
+    
+}
+
+.icons {
+    width: 75px;
+    height: 35px;
+    background-color:#ffffff;
+    font-size: 35px;
+    display: flex;
+    padding: 2px;
+    border-radius: 11%;
+
+}
+
+.icons:hover{
+    color: #495057;
+    transition: .2s #f3a1ff;
+}
